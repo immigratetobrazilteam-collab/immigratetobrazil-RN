@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #FFFACD;
+    color: #FF4500;
+}
+
+h1, h2 {
+    font-family: Wind, serif;
+    color: #FFFF00;
+}
+
+a {
+    color: #00BFFF;
+}
+
+section {
+    padding: 3rem;
+}
