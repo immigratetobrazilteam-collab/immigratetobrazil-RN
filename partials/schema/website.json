@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Rio Grande do Norte Immigration Site",
+  "url": "https://immigratetobrazil.com/rn/",
+  "description": "Rio Grande do Norte is a Brazilian state in the Northeast Region, known for its beaches, dunes, tourism-driven economy with petroleum extraction, and festivals like Carnatal and Festa Junina. It features landmarks such as Forte dos Reis Magos and natural attractions including Rocas Atoll.",
+  "keywords": [
+    "Rio Grande do Norte",
+    "Natal",
+    "Beaches",
+    "Dunes",
+    "Tourism",
+    "Festa Junina",
+    "Carnatal"
+  ],
+  "inLanguage": "en"
+}
