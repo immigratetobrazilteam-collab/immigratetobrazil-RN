@@ -1,15 +1,52 @@
-<nav class="mobile-nav" aria-label="Mobile navigation">
-    <button aria-expanded="false" aria-controls="mobile-menu">Menu</button>
-    <ul id="mobile-menu" hidden>
-        <li><a href="/">Home</a></li>
-        <li><a href="/services">Services</a></li>
-        <li><a href="/services/artistic-visa">Artistic Visa</a></li>
-        <li><a href="/rn">Explore Rio Grande do Norte</a></li>
+<nav class="mobile-nav md:hidden" aria-label="Mobile navigation">
+    <button aria-expanded="false" aria-controls="mobile-menu" class="w-full px-4 py-2 bg-[#FFFF00] text-white rounded flex justify-between items-center">Menu <i class="fas fa-chevron-down"></i></button>
+    <ul id="mobile-menu" class="hidden flex flex-col bg-white shadow-md rounded-md mt-1 overflow-auto max-h-[80vh]">
+        <li><a href="/" class="block px-4 py-2 hover:bg-[#00BFFF]/10">Home</a></li>
+        <li>
+            <button class="w-full text-left px-4 py-2 hover:bg-[#00BFFF]/10 flex justify-between items-center" aria-expanded="false" aria-controls="services-sub">Services <i class="fas fa-chevron-down"></i></button>
+            <ul id="services-sub" class="hidden pl-4">
+                <li class="font-bold py-1">Travel Services</li>
+                
+                <li class="font-bold py-1 mt-2">Brazilian Visas</li>
+                <li><a href="/visas/artistic-visa" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Artistic Visa">Artistic Visa</a></li>
+                <li class="font-bold py-1 mt-2">Residency Permits</li>
+                
+                <li class="font-bold py-1 mt-2">Citizenship & Naturalisation</li>
+                
+                <li class="font-bold py-1 mt-2">Other Services</li>
+                
+            </ul>
+        </li>
+        <li>
+            <button class="w-full text-left px-4 py-2 hover:bg-[#00BFFF]/10 flex justify-between items-center" aria-expanded="false" aria-controls="explore-sub">Explore Rio Grande do Norte <i class="fas fa-chevron-down"></i></button>
+            <ul id="explore-sub" class="hidden pl-4">
+                <li><a href="/explore/cashew-of-pirangi-(world's-largest-cashew-tree)" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Cashew of Pirangi (world's largest cashew tree)">Cashew of Pirangi (world's largest cashew tree)</a></li><li><a href="/explore/dunes-and-dromedaries-of-genipabu" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Dunes and dromedaries of Genipabu">Dunes and dromedaries of Genipabu</a></li><li><a href="/explore/beaches-of-ponta-negra,-maracajaú,-and-pipa" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Beaches of Ponta Negra, Maracajaú, and Pipa">Beaches of Ponta Negra, Maracajaú, and Pipa</a></li><li><a href="/explore/forte-dos-reis-magos-fortification" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Forte dos Reis Magos fortification">Forte dos Reis Magos fortification</a></li><li><a href="/explore/hills-and-mountains-of-martins" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Hills and mountains of Martins">Hills and mountains of Martins</a></li><li><a href="/explore/natal-dunes-state-park" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Natal Dunes State Park">Natal Dunes State Park</a></li><li><a href="/explore/sandy-beaches-(410-km-coastline)" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Sandy beaches (410 km coastline)">Sandy beaches (410 km coastline)</a></li><li><a href="/explore/sand-dunes" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="sand dunes">sand dunes</a></li><li><a href="/explore/rocas-atoll-(only-atoll-in-the-south-atlantic-ocean)" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Rocas Atoll (only atoll in the South Atlantic Ocean)">Rocas Atoll (only atoll in the South Atlantic Ocean)</a></li><li><a href="/explore/mangroves" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="mangroves">mangroves</a></li><li><a href="/explore/rainforest-(in-the-interior)" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="rainforest (in the interior)">rainforest (in the interior)</a></li><li><a href="/explore/semi-arid-climate-(most-of-the-state)" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="semi-arid climate (most of the state)">semi-arid climate (most of the state)</a></li><li><a href="/explore/humid-tropical-climate-(oriental-littoral)" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="humid tropical climate (oriental littoral)">humid tropical climate (oriental littoral)</a></li><li><a href="/explore/natal-dunes-state-park" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Natal Dunes State Park">Natal Dunes State Park</a></li><li><a href="/explore/atol-das-rocas-biological-reserve" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Atol das Rocas Biological Reserve">Atol das Rocas Biological Reserve</a></li><li><a href="/explore/cashew" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Cashew">Cashew</a></li><li><a href="/explore/mango" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Mango">Mango</a></li><li><a href="/explore/melon" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Melon">Melon</a></li><li><a href="/explore/sea-salt" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Sea salt">Sea salt</a></li><li><a href="/explore/sugar" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Sugar">Sugar</a></li><li><a href="/explore/chocolate" class="block py-2 pl-4 hover:bg-[#00BFFF]/10" title="Chocolate">Chocolate</a></li>
+            </ul>
+        </li>
+        <li><a href="/contact" class="block px-4 py-2 hover:bg-[#00BFFF]/10">Contact</a></li>
+        <li><a href="/faq" class="block px-4 py-2 hover:bg-[#00BFFF]/10">FAQ</a></li>
+        <li><a href="/blog" class="block px-4 py-2 hover:bg-[#00BFFF]/10">Blog</a></li>
+        <li><a href="/about" class="block px-4 py-2 hover:bg-[#00BFFF]/10">About</a></li>
     </ul>
     <script>
-    document.querySelector('.mobile-nav button').addEventListener('click', function() {
-        this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
-        document.getElementById('mobile-menu').hidden = !document.getElementById('mobile-menu').hidden;
-    });
+        const menuBtn = document.querySelector('.mobile-nav button');
+        const menu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
+            menuBtn.setAttribute('aria-expanded', !expanded);
+            menu.classList.toggle('hidden');
+            menuBtn.querySelector('i').classList.toggle('fa-chevron-down');
+            menuBtn.querySelector('i').classList.toggle('fa-chevron-up');
+        });
+        document.querySelectorAll('.mobile-nav li button').forEach(subBtn => {
+            subBtn.addEventListener('click', () => {
+                const expanded = subBtn.getAttribute('aria-expanded') === 'true';
+                subBtn.setAttribute('aria-expanded', !expanded);
+                const subMenu = document.getElementById(subBtn.getAttribute('aria-controls'));
+                subMenu.classList.toggle('hidden');
+                subBtn.querySelector('i').classList.toggle('fa-chevron-down');
+                subBtn.querySelector('i').classList.toggle('fa-chevron-up');
+            });
+        });
     </script>
 </nav>
