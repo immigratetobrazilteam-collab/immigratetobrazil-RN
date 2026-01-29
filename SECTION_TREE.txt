@@ -1,1098 +1,664 @@
-rn/
+RN/
 ├─ index.html
-│  ├─ rn-index-section-immigrate-to-rio-grande-do-norte
-│  ├─ rn-index-form-immigrate-to-rio-grande-do-norte
-│  ├─ rn-index-section-state-vibe
-│  ├─ rn-index-section-quick-facts-snapshot
-│  ├─ rn-index-section-rio-grande-do-norte-map
-│  ├─ rn-index-section-cost-of-living-rio-grande-do-norte
-│  ├─ rn-index-section-government-context
-│  ├─ rn-index-hero-immigration-notes
-│  ├─ rn-index-list-common-applicant-profiles
-│  ├─ rn-index-list-economic-drivers
-│  ├─ rn-index-section-demographics
-│  ├─ rn-index-section-regional-challenges
-│  ├─ rn-index-section-regional-opportunities
-│  ├─ rn-index-section-culture-daily-life
-│  ├─ rn-index-list-local-language-expressions
-│  ├─ rn-index-list-food-cuisine
-│  ├─ rn-index-list-festivals-traditions
-│  ├─ rn-index-list-music-artistic-expression
-│  ├─ rn-index-list-sports-recreation
-│  ├─ rn-index-list-landmarks-historical-sites
-│  ├─ rn-index-list-natural-features
-│  ├─ rn-index-list-parks-protected-areas
-│  ├─ rn-index-list-museums-cultural-institutions
-│  ├─ rn-index-section-image-gallery
-│  ├─ rn-index-section-useful-government-links
-│  ├─ rn-index-hero-federal-police-immigration-links
-│  ├─ rn-index-section-external-references
-│  ├─ rn-index-list-immigration-services-overview
-│  ├─ rn-index-section-why-immigrate-here
-│  ├─ rn-index-section-legal-guidance-disclaimers
-│  ├─ contact
-│  ├─ rn-index-list-travel-services
-│  ├─ rn-index-list-how-the-process-works
-│  ├─ rn-index-section--frequently-asked-questions-about-living-in-rio-grande-do-norte-
-│  ├─ contact
+│  ├─ rn-index-section--map
+│  ├─ rn-index-section-frequently-asked-questions-about-living-in-
+│  ├─ rn-index-contact
 
-├─ contact-cta.html
-│  ├─ rn-contactcta-section-get-started-in-rio-grande-do-norte
+├─ footer.html
+│  ├─ main-footer
 
-├─ renouncing-citizenship.html
-│  ├─ rn-renouncingcitizenship-form-renounce-brazilian-citizenship
-│  ├─ rn-renouncingcitizenship-list-quick-facts
-│  ├─ rn-renouncingcitizenship-list-common-challenges-applicants-face
-│  ├─ rn-renouncingcitizenship-list-how-we-solve-these-challenges
-│  ├─ rn-renouncingcitizenship-section-renunciation-overview
-│  ├─ rn-renouncingcitizenship-form-who-is-this-for
-│  ├─ rn-renouncingcitizenship-list-required-documents
-│  ├─ rn-renouncingcitizenship-list-process
-│  ├─ rn-renouncingcitizenship-section-timelines-deadlines
-│  ├─ rn-renouncingcitizenship-section-fees-costs
-│  ├─ rn-renouncingcitizenship-list-risks-common-mistakes
-│  ├─ rn-renouncingcitizenship-section-diy-vs-professional-assistance
-│  ├─ rn-renouncingcitizenship-section-rio-grande-do-norte-specific-context
-│  ├─ rn-renouncingcitizenship-section-what-our-clients-say
-│  ├─ rn-renouncingcitizenship-section-frequently-asked-questions
-│  ├─ rn-renouncingcitizenship-section-international-support
-│  ├─ application-form
-│  ├─ rn-renouncingcitizenship-list-our-credentials
-│  ├─ rn-renouncingcitizenship-list-related-services
-│  ├─ rn-renouncingcitizenship-section-youre-in-good-hands
-│  ├─ rn-renouncingcitizenship-section-21
+├─ header.html
+│  ├─ main-header
 
-├─ provisional.html
-│  ├─ rn-provisional-form-provisional-naturalisation-in-brazil-for-minors
-│  ├─ rn-provisional-list-quick-facts
-│  ├─ rn-provisional-list-common-challenges-applicants-face
-│  ├─ rn-provisional-list-how-we-solve-these-challenges
-│  ├─ rn-provisional-section-naturalisation-overview
-│  ├─ rn-provisional-form-who-is-this-naturalisation-for
-│  ├─ rn-provisional-list-required-documents
-│  ├─ rn-provisional-list-application-process
-│  ├─ rn-provisional-section-timelines-deadlines
-│  ├─ rn-provisional-section-fees-costs
-│  ├─ rn-provisional-list-risks-common-mistakes
-│  ├─ rn-provisional-section-diy-vs-professional-assistance
-│  ├─ rn-provisional-section-rio-grande-do-norte-specific-context
-│  ├─ rn-provisional-section-what-our-clients-say
-│  ├─ rn-provisional-section-frequently-asked-questions
-│  ├─ rn-provisional-section-international-support
-│  ├─ application-form
-│  ├─ rn-provisional-list-our-credentials
-│  ├─ rn-provisional-list-related-services
-│  ├─ rn-provisional-section-youre-in-good-hands
-│  ├─ rn-provisional-section-21
-
-├─ special.html
-│  ├─ rn-special-form-special-naturalisation-in-brazil-for-particular-cases
-│  ├─ rn-special-list-quick-facts
-│  ├─ rn-special-list-common-challenges-applicants-face
-│  ├─ rn-special-list-how-we-solve-these-challenges
-│  ├─ rn-special-section-naturalisation-overview
-│  ├─ rn-special-form-who-is-this-naturalisation-for
-│  ├─ rn-special-list-required-documents
-│  ├─ rn-special-list-application-process
-│  ├─ rn-special-section-timelines-deadlines
-│  ├─ rn-special-section-fees-costs
-│  ├─ rn-special-list-risks-common-mistakes
-│  ├─ rn-special-section-diy-vs-professional-assistance
-│  ├─ rn-special-section-rio-grande-do-norte-specific-context
-│  ├─ rn-special-section-what-our-clients-say
-│  ├─ rn-special-section-frequently-asked-questions
-│  ├─ rn-special-section-international-support
-│  ├─ application-form
-│  ├─ rn-special-list-our-credentials
-│  ├─ rn-special-list-related-services
-│  ├─ rn-special-section-youre-in-good-hands
-│  ├─ rn-special-section-21
-
-├─ ordinary.html
-│  ├─ rn-ordinary-form-obtain-brazilian-citizenship-through-ordinary-naturalisation
-│  ├─ rn-ordinary-list-quick-facts
-│  ├─ rn-ordinary-list-common-challenges-applicants-face
-│  ├─ rn-ordinary-list-how-we-solve-these-challenges
-│  ├─ rn-ordinary-section-naturalisation-overview
-│  ├─ rn-ordinary-form-who-is-this-naturalisation-for
-│  ├─ rn-ordinary-list-required-documents
-│  ├─ rn-ordinary-list-application-process
-│  ├─ rn-ordinary-section-timelines-deadlines
-│  ├─ rn-ordinary-section-fees-costs
-│  ├─ rn-ordinary-list-risks-common-mistakes
-│  ├─ rn-ordinary-section-diy-vs-professional-assistance
-│  ├─ rn-ordinary-section-rio-grande-do-norte-specific-context
-│  ├─ rn-ordinary-section-what-our-clients-say
-│  ├─ rn-ordinary-section-frequently-asked-questions
-│  ├─ rn-ordinary-section-international-support
-│  ├─ application-form
-│  ├─ rn-ordinary-list-our-credentials
-│  ├─ rn-ordinary-list-related-services
-│  ├─ rn-ordinary-section-youre-in-good-hands
-│  ├─ rn-ordinary-section-21
-
-├─ extraordinary.html
-│  ├─ rn-extraordinary-form-extraordinary-naturalisation-in-brazil-for-contributions
-│  ├─ rn-extraordinary-list-quick-facts
-│  ├─ rn-extraordinary-list-common-challenges-applicants-face
-│  ├─ rn-extraordinary-list-how-we-solve-these-challenges
-│  ├─ rn-extraordinary-section-naturalisation-overview
-│  ├─ rn-extraordinary-form-who-is-this-naturalisation-for
-│  ├─ rn-extraordinary-list-required-documents
-│  ├─ rn-extraordinary-list-application-process
-│  ├─ rn-extraordinary-section-timelines-deadlines
-│  ├─ rn-extraordinary-section-fees-costs
-│  ├─ rn-extraordinary-list-risks-common-mistakes
-│  ├─ rn-extraordinary-section-diy-vs-professional-assistance
-│  ├─ rn-extraordinary-section-rio-grande-do-norte-specific-context
-│  ├─ rn-extraordinary-section-what-our-clients-say
-│  ├─ rn-extraordinary-section-frequently-asked-questions
-│  ├─ rn-extraordinary-section-international-support
-│  ├─ application-form
-│  ├─ rn-extraordinary-list-our-credentials
-│  ├─ rn-extraordinary-list-related-services
-│  ├─ rn-extraordinary-section-youre-in-good-hands
-│  ├─ rn-extraordinary-section-21
-
-├─ reacquisition-citizenship.html
-│  ├─ rn-reacquisitioncitizenship-form-reacquire-brazilian-citizenship
-│  ├─ rn-reacquisitioncitizenship-list-quick-facts
-│  ├─ rn-reacquisitioncitizenship-list-common-challenges-applicants-face
-│  ├─ rn-reacquisitioncitizenship-list-how-we-solve-these-challenges
-│  ├─ rn-reacquisitioncitizenship-section-reacquisition-overview
-│  ├─ rn-reacquisitioncitizenship-form-who-is-this-for
-│  ├─ rn-reacquisitioncitizenship-list-required-documents
-│  ├─ rn-reacquisitioncitizenship-list-process
-│  ├─ rn-reacquisitioncitizenship-section-timelines-deadlines
-│  ├─ rn-reacquisitioncitizenship-section-fees-costs
-│  ├─ rn-reacquisitioncitizenship-list-risks-common-mistakes
-│  ├─ rn-reacquisitioncitizenship-section-diy-vs-professional-assistance
-│  ├─ rn-reacquisitioncitizenship-section-rio-grande-do-norte-specific-context
-│  ├─ rn-reacquisitioncitizenship-section-what-our-clients-say
-│  ├─ rn-reacquisitioncitizenship-section-frequently-asked-questions
-│  ├─ rn-reacquisitioncitizenship-section-international-support
-│  ├─ application-form
-│  ├─ rn-reacquisitioncitizenship-list-our-credentials
-│  ├─ rn-reacquisitioncitizenship-list-related-services
-│  ├─ rn-reacquisitioncitizenship-section-youre-in-good-hands
-│  ├─ rn-reacquisitioncitizenship-section-21
-
-├─ scientific-research.html
-│  ├─ rn-scientificresearch-form-conduct-scientific-research-with-residency-in-brazil
-│  ├─ rn-scientificresearch-list-quick-facts
-│  ├─ rn-scientificresearch-list-common-challenges-applicants-face
-│  ├─ rn-scientificresearch-list-how-we-solve-these-challenges
-│  ├─ rn-scientificresearch-section-residency-overview
-│  ├─ rn-scientificresearch-form-who-is-this-residency-for
-│  ├─ rn-scientificresearch-list-required-documents
-│  ├─ rn-scientificresearch-list-application-process
-│  ├─ rn-scientificresearch-section-timelines-deadlines
-│  ├─ rn-scientificresearch-section-fees-costs
-│  ├─ rn-scientificresearch-list-risks-common-mistakes
-│  ├─ rn-scientificresearch-section-diy-vs-professional-assistance
-│  ├─ rn-scientificresearch-section-rio-grande-do-norte-specific-context
-│  ├─ rn-scientificresearch-section-what-our-clients-say
-│  ├─ rn-scientificresearch-section-frequently-asked-questions
-│  ├─ rn-scientificresearch-section-international-support
-│  ├─ application-form
-│  ├─ rn-scientificresearch-list-our-credentials
-│  ├─ rn-scientificresearch-list-related-services
-│  ├─ rn-scientificresearch-section-youre-in-good-hands
-│  ├─ rn-scientificresearch-section-21
-
-├─ study.html
-│  ├─ rn-study-form-study-in-brazil-with-study-residency
-│  ├─ rn-study-list-quick-facts
-│  ├─ rn-study-list-common-challenges-applicants-face
-│  ├─ rn-study-list-how-we-solve-these-challenges
-│  ├─ rn-study-section-residency-overview
-│  ├─ rn-study-form-who-is-this-residency-for
-│  ├─ rn-study-list-required-documents
-│  ├─ rn-study-list-application-process
-│  ├─ rn-study-section-timelines-deadlines
-│  ├─ rn-study-section-fees-costs
-│  ├─ rn-study-list-risks-common-mistakes
-│  ├─ rn-study-section-diy-vs-professional-assistance
-│  ├─ rn-study-section-rio-grande-do-norte-specific-context
-│  ├─ rn-study-section-what-our-clients-say
-│  ├─ rn-study-section-frequently-asked-questions
-│  ├─ rn-study-section-international-support
-│  ├─ application-form
-│  ├─ rn-study-list-our-credentials
-│  ├─ rn-study-list-related-services
-│  ├─ rn-study-section-youre-in-good-hands
-│  ├─ rn-study-section-21
-
-├─ educational-exchange.html
-│  ├─ rn-educationalexchange-form-participate-in-educational-exchanges-with-residency-in-brazil
-│  ├─ rn-educationalexchange-list-quick-facts
-│  ├─ rn-educationalexchange-list-common-challenges-applicants-face
-│  ├─ rn-educationalexchange-list-how-we-solve-these-challenges
-│  ├─ rn-educationalexchange-section-residency-overview
-│  ├─ rn-educationalexchange-form-who-is-this-residency-for
-│  ├─ rn-educationalexchange-list-required-documents
-│  ├─ rn-educationalexchange-list-application-process
-│  ├─ rn-educationalexchange-section-timelines-deadlines
-│  ├─ rn-educationalexchange-section-fees-costs
-│  ├─ rn-educationalexchange-list-risks-common-mistakes
-│  ├─ rn-educationalexchange-section-diy-vs-professional-assistance
-│  ├─ rn-educationalexchange-section-rio-grande-do-norte-specific-context
-│  ├─ rn-educationalexchange-section-what-our-clients-say
-│  ├─ rn-educationalexchange-section-frequently-asked-questions
-│  ├─ rn-educationalexchange-section-international-support
-│  ├─ application-form
-│  ├─ rn-educationalexchange-list-our-credentials
-│  ├─ rn-educationalexchange-list-related-services
-│  ├─ rn-educationalexchange-section-youre-in-good-hands
-│  ├─ rn-educationalexchange-section-21
-
-├─ humanitarian.html
-│  ├─ rn-humanitarian-form-humanitarian-residency-in-brazil-for-protection
-│  ├─ rn-humanitarian-list-quick-facts
-│  ├─ rn-humanitarian-list-common-challenges-applicants-face
-│  ├─ rn-humanitarian-list-how-we-solve-these-challenges
-│  ├─ rn-humanitarian-section-residency-overview
-│  ├─ rn-humanitarian-form-who-is-this-residency-for
-│  ├─ rn-humanitarian-list-required-documents
-│  ├─ rn-humanitarian-list-application-process
-│  ├─ rn-humanitarian-section-timelines-deadlines
-│  ├─ rn-humanitarian-section-fees-costs
-│  ├─ rn-humanitarian-list-risks-common-mistakes
-│  ├─ rn-humanitarian-section-diy-vs-professional-assistance
-│  ├─ rn-humanitarian-section-rio-grande-do-norte-specific-context
-│  ├─ rn-humanitarian-section-what-our-clients-say
-│  ├─ rn-humanitarian-section-frequently-asked-questions
-│  ├─ rn-humanitarian-section-international-support
-│  ├─ application-form
-│  ├─ rn-humanitarian-list-our-credentials
-│  ├─ rn-humanitarian-list-related-services
-│  ├─ rn-humanitarian-section-youre-in-good-hands
-│  ├─ rn-humanitarian-section-21
-
-├─ digital-nomad.html
-│  ├─ rn-digitalnomad-form-digital-nomad-residency-in-brazil
-│  ├─ rn-digitalnomad-list-quick-facts
-│  ├─ rn-digitalnomad-list-common-challenges-applicants-face
-│  ├─ rn-digitalnomad-list-how-we-solve-these-challenges
-│  ├─ rn-digitalnomad-section-residency-overview
-│  ├─ rn-digitalnomad-form-who-is-this-residency-for
-│  ├─ rn-digitalnomad-list-required-documents
-│  ├─ rn-digitalnomad-list-application-process
-│  ├─ rn-digitalnomad-section-timelines-deadlines
-│  ├─ rn-digitalnomad-section-fees-costs
-│  ├─ rn-digitalnomad-list-risks-common-mistakes
-│  ├─ rn-digitalnomad-section-diy-vs-professional-assistance
-│  ├─ rn-digitalnomad-section-rio-grande-do-norte-specific-context
-│  ├─ rn-digitalnomad-section-what-our-clients-say
-│  ├─ rn-digitalnomad-section-frequently-asked-questions
-│  ├─ rn-digitalnomad-section-international-support
-│  ├─ application-form
-│  ├─ rn-digitalnomad-list-our-credentials
-│  ├─ rn-digitalnomad-list-related-services
-│  ├─ rn-digitalnomad-section-youre-in-good-hands
-│  ├─ rn-digitalnomad-section-21
-
-├─ family-reunion.html
-│  ├─ rn-familyreunion-form-reunite-with-family-in-brazil-with-family-reunion-residency
-│  ├─ rn-familyreunion-list-quick-facts
-│  ├─ rn-familyreunion-list-common-challenges-applicants-face
-│  ├─ rn-familyreunion-list-how-we-solve-these-challenges
-│  ├─ rn-familyreunion-section-residency-overview
-│  ├─ rn-familyreunion-form-who-is-this-residency-for
-│  ├─ rn-familyreunion-list-required-documents
-│  ├─ rn-familyreunion-list-application-process
-│  ├─ rn-familyreunion-section-timelines-deadlines
-│  ├─ rn-familyreunion-section-fees-costs
-│  ├─ rn-familyreunion-list-risks-common-mistakes
-│  ├─ rn-familyreunion-section-diy-vs-professional-assistance
-│  ├─ rn-familyreunion-section-rio-grande-do-norte-specific-context
-│  ├─ rn-familyreunion-section-what-our-clients-say
-│  ├─ rn-familyreunion-section-frequently-asked-questions
-│  ├─ rn-familyreunion-section-international-support
-│  ├─ application-form
-│  ├─ rn-familyreunion-list-our-credentials
-│  ├─ rn-familyreunion-list-related-services
-│  ├─ rn-familyreunion-section-youre-in-good-hands
-│  ├─ rn-familyreunion-section-21
-
-├─ mercosul.html
-│  ├─ rn-mercosul-form-residency-for-mercosul-citizens-in-brazil
-│  ├─ rn-mercosul-list-quick-facts
-│  ├─ rn-mercosul-list-common-challenges-applicants-face
-│  ├─ rn-mercosul-list-how-we-solve-these-challenges
-│  ├─ rn-mercosul-section-residency-overview
-│  ├─ rn-mercosul-form-who-is-this-residency-for
-│  ├─ rn-mercosul-list-required-documents
-│  ├─ rn-mercosul-list-application-process
-│  ├─ rn-mercosul-section-timelines-deadlines
-│  ├─ rn-mercosul-section-fees-costs
-│  ├─ rn-mercosul-list-risks-common-mistakes
-│  ├─ rn-mercosul-section-diy-vs-professional-assistance
-│  ├─ rn-mercosul-section-rio-grande-do-norte-specific-context
-│  ├─ rn-mercosul-section-what-our-clients-say
-│  ├─ rn-mercosul-section-frequently-asked-questions
-│  ├─ rn-mercosul-section-international-support
-│  ├─ application-form
-│  ├─ rn-mercosul-list-our-credentials
-│  ├─ rn-mercosul-list-related-services
-│  ├─ rn-mercosul-section-youre-in-good-hands
-│  ├─ rn-mercosul-section-21
-
-├─ retiree.html
-│  ├─ rn-retiree-form-retire-in-brazil-with-retiree-residency
-│  ├─ rn-retiree-list-quick-facts
-│  ├─ rn-retiree-list-common-challenges-applicants-face
-│  ├─ rn-retiree-list-how-we-solve-these-challenges
-│  ├─ rn-retiree-section-residency-overview
-│  ├─ rn-retiree-form-who-is-this-residency-for
-│  ├─ rn-retiree-list-required-documents
-│  ├─ rn-retiree-list-application-process
-│  ├─ rn-retiree-section-timelines-deadlines
-│  ├─ rn-retiree-section-fees-costs
-│  ├─ rn-retiree-list-risks-common-mistakes
-│  ├─ rn-retiree-section-diy-vs-professional-assistance
-│  ├─ rn-retiree-section-rio-grande-do-norte-specific-context
-│  ├─ rn-retiree-section-what-our-clients-say
-│  ├─ rn-retiree-section-frequently-asked-questions
-│  ├─ rn-retiree-section-international-support
-│  ├─ application-form
-│  ├─ rn-retiree-list-our-credentials
-│  ├─ rn-retiree-list-related-services
-│  ├─ rn-retiree-section-youre-in-good-hands
-│  ├─ rn-retiree-section-21
-
-├─ volunteer.html
-│  ├─ rn-volunteer-form-volunteer-in-brazil-with-volunteer-residency
-│  ├─ rn-volunteer-list-quick-facts
-│  ├─ rn-volunteer-list-common-challenges-applicants-face
-│  ├─ rn-volunteer-list-how-we-solve-these-challenges
-│  ├─ rn-volunteer-section-residency-overview
-│  ├─ rn-volunteer-form-who-is-this-residency-for
-│  ├─ rn-volunteer-list-required-documents
-│  ├─ rn-volunteer-list-application-process
-│  ├─ rn-volunteer-section-timelines-deadlines
-│  ├─ rn-volunteer-section-fees-costs
-│  ├─ rn-volunteer-list-risks-common-mistakes
-│  ├─ rn-volunteer-section-diy-vs-professional-assistance
-│  ├─ rn-volunteer-section-rio-grande-do-norte-specific-context
-│  ├─ rn-volunteer-section-what-our-clients-say
-│  ├─ rn-volunteer-section-frequently-asked-questions
-│  ├─ rn-volunteer-section-international-support
-│  ├─ application-form
-│  ├─ rn-volunteer-list-our-credentials
-│  ├─ rn-volunteer-list-related-services
-│  ├─ rn-volunteer-section-youre-in-good-hands
-│  ├─ rn-volunteer-section-21
-
-├─ skilled-worker.html
-│  ├─ rn-skilledworker-form-skilled-worker-residency-in-brazil-for-professionals
-│  ├─ rn-skilledworker-list-quick-facts
-│  ├─ rn-skilledworker-list-common-challenges-applicants-face
-│  ├─ rn-skilledworker-list-how-we-solve-these-challenges
-│  ├─ rn-skilledworker-section-residency-overview
-│  ├─ rn-skilledworker-form-who-is-this-residency-for
-│  ├─ rn-skilledworker-list-required-documents
-│  ├─ rn-skilledworker-list-application-process
-│  ├─ rn-skilledworker-section-timelines-deadlines
-│  ├─ rn-skilledworker-section-fees-costs
-│  ├─ rn-skilledworker-list-risks-common-mistakes
-│  ├─ rn-skilledworker-section-diy-vs-professional-assistance
-│  ├─ rn-skilledworker-section-rio-grande-do-norte-specific-context
-│  ├─ rn-skilledworker-section-what-our-clients-say
-│  ├─ rn-skilledworker-section-frequently-asked-questions
-│  ├─ rn-skilledworker-section-international-support
-│  ├─ application-form
-│  ├─ rn-skilledworker-list-our-credentials
-│  ├─ rn-skilledworker-list-related-services
-│  ├─ rn-skilledworker-section-youre-in-good-hands
-│  ├─ rn-skilledworker-section-21
-
-├─ religious.html
-│  ├─ rn-religious-form-religious-residency-in-brazil-for-missions
-│  ├─ rn-religious-list-quick-facts
-│  ├─ rn-religious-list-common-challenges-applicants-face
-│  ├─ rn-religious-list-how-we-solve-these-challenges
-│  ├─ rn-religious-section-residency-overview
-│  ├─ rn-religious-form-who-is-this-residency-for
-│  ├─ rn-religious-list-required-documents
-│  ├─ rn-religious-list-application-process
-│  ├─ rn-religious-section-timelines-deadlines
-│  ├─ rn-religious-section-fees-costs
-│  ├─ rn-religious-list-risks-common-mistakes
-│  ├─ rn-religious-section-diy-vs-professional-assistance
-│  ├─ rn-religious-section-rio-grande-do-norte-specific-context
-│  ├─ rn-religious-section-what-our-clients-say
-│  ├─ rn-religious-section-frequently-asked-questions
-│  ├─ rn-religious-section-international-support
-│  ├─ application-form
-│  ├─ rn-religious-list-our-credentials
-│  ├─ rn-religious-list-related-services
-│  ├─ rn-religious-section-youre-in-good-hands
-│  ├─ rn-religious-section-21
-
-├─ investor.html
-│  ├─ rn-investor-form-gain-residency-in-brazil-through-investment
-│  ├─ rn-investor-list-quick-facts
-│  ├─ rn-investor-list-common-challenges-applicants-face
-│  ├─ rn-investor-list-how-we-solve-these-challenges
-│  ├─ rn-investor-section-residency-overview
-│  ├─ rn-investor-form-who-is-this-residency-for
-│  ├─ rn-investor-list-required-documents
-│  ├─ rn-investor-list-application-process
-│  ├─ rn-investor-section-timelines-deadlines
-│  ├─ rn-investor-section-fees-costs
-│  ├─ rn-investor-list-risks-common-mistakes
-│  ├─ rn-investor-section-diy-vs-professional-assistance
-│  ├─ rn-investor-section-rio-grande-do-norte-specific-context
-│  ├─ rn-investor-section-what-our-clients-say
-│  ├─ rn-investor-section-frequently-asked-questions
-│  ├─ rn-investor-section-international-support
-│  ├─ application-form
-│  ├─ rn-investor-list-our-credentials
-│  ├─ rn-investor-list-related-services
-│  ├─ rn-investor-section-youre-in-good-hands
-│  ├─ rn-investor-section-21
-
-├─ health-treatment.html
-│  ├─ rn-healthtreatment-form-extend-your-stay-for-health-treatment-in-brazil
-│  ├─ rn-healthtreatment-list-quick-facts
-│  ├─ rn-healthtreatment-list-common-challenges-applicants-face
-│  ├─ rn-healthtreatment-list-how-we-solve-these-challenges
-│  ├─ rn-healthtreatment-section-residency-overview
-│  ├─ rn-healthtreatment-form-who-is-this-residency-for
-│  ├─ rn-healthtreatment-list-required-documents
-│  ├─ rn-healthtreatment-list-application-process
-│  ├─ rn-healthtreatment-section-timelines-deadlines
-│  ├─ rn-healthtreatment-section-fees-costs
-│  ├─ rn-healthtreatment-list-risks-common-mistakes
-│  ├─ rn-healthtreatment-section-diy-vs-professional-assistance
-│  ├─ rn-healthtreatment-section-rio-grande-do-norte-specific-context
-│  ├─ rn-healthtreatment-section-what-our-clients-say
-│  ├─ rn-healthtreatment-section-frequently-asked-questions
-│  ├─ rn-healthtreatment-section-international-support
-│  ├─ application-form
-│  ├─ rn-healthtreatment-list-our-credentials
-│  ├─ rn-healthtreatment-list-related-services
-│  ├─ rn-healthtreatment-section-youre-in-good-hands
-│  ├─ rn-healthtreatment-section-21
-
-├─ cplp.html
-│  ├─ rn-cplp-form-residency-for-cplp-citizens-in-brazil
-│  ├─ rn-cplp-list-quick-facts
-│  ├─ rn-cplp-list-common-challenges-applicants-face
-│  ├─ rn-cplp-list-how-we-solve-these-challenges
-│  ├─ rn-cplp-section-residency-overview
-│  ├─ rn-cplp-form-who-is-this-residency-for
-│  ├─ rn-cplp-list-required-documents
-│  ├─ rn-cplp-list-application-process
-│  ├─ rn-cplp-section-timelines-deadlines
-│  ├─ rn-cplp-section-fees-costs
-│  ├─ rn-cplp-list-risks-common-mistakes
-│  ├─ rn-cplp-section-diy-vs-professional-assistance
-│  ├─ rn-cplp-section-rio-grande-do-norte-specific-context
-│  ├─ rn-cplp-section-what-our-clients-say
-│  ├─ rn-cplp-section-frequently-asked-questions
-│  ├─ rn-cplp-section-international-support
-│  ├─ application-form
-│  ├─ rn-cplp-list-our-credentials
-│  ├─ rn-cplp-list-related-services
-│  ├─ rn-cplp-section-youre-in-good-hands
-│  ├─ rn-cplp-section-21
-
-├─ youth-exchange.html
-│  ├─ rn-youthexchange-form-youth-exchange-residency-in-brazil-for-programs
-│  ├─ rn-youthexchange-list-quick-facts
-│  ├─ rn-youthexchange-list-common-challenges-applicants-face
-│  ├─ rn-youthexchange-list-how-we-solve-these-challenges
-│  ├─ rn-youthexchange-section-residency-overview
-│  ├─ rn-youthexchange-form-who-is-this-residency-for
-│  ├─ rn-youthexchange-list-required-documents
-│  ├─ rn-youthexchange-list-application-process
-│  ├─ rn-youthexchange-section-timelines-deadlines
-│  ├─ rn-youthexchange-section-fees-costs
-│  ├─ rn-youthexchange-list-risks-common-mistakes
-│  ├─ rn-youthexchange-section-diy-vs-professional-assistance
-│  ├─ rn-youthexchange-section-rio-grande-do-norte-specific-context
-│  ├─ rn-youthexchange-section-what-our-clients-say
-│  ├─ rn-youthexchange-section-frequently-asked-questions
-│  ├─ rn-youthexchange-section-international-support
-│  ├─ application-form
-│  ├─ rn-youthexchange-list-our-credentials
-│  ├─ rn-youthexchange-list-related-services
-│  ├─ rn-youthexchange-section-youre-in-good-hands
-│  ├─ rn-youthexchange-section-21
-
-├─ work.html
-│  ├─ rn-work-form-work-and-reside-in-brazil-with-work-residency
-│  ├─ rn-work-list-quick-facts
-│  ├─ rn-work-list-common-challenges-applicants-face
-│  ├─ rn-work-list-how-we-solve-these-challenges
-│  ├─ rn-work-section-residency-overview
-│  ├─ rn-work-form-who-is-this-residency-for
-│  ├─ rn-work-list-required-documents
-│  ├─ rn-work-list-application-process
-│  ├─ rn-work-section-timelines-deadlines
-│  ├─ rn-work-section-fees-costs
-│  ├─ rn-work-list-risks-common-mistakes
-│  ├─ rn-work-section-diy-vs-professional-assistance
-│  ├─ rn-work-section-rio-grande-do-norte-specific-context
-│  ├─ rn-work-section-what-our-clients-say
-│  ├─ rn-work-section-frequently-asked-questions
-│  ├─ rn-work-section-international-support
-│  ├─ application-form
-│  ├─ rn-work-list-our-credentials
-│  ├─ rn-work-list-related-services
-│  ├─ rn-work-section-youre-in-good-hands
-│  ├─ rn-work-section-21
-
-├─ startup.html
-│  ├─ rn-startup-form-launch-your-startup-in-brazil-with-the-startup-visa
-│  ├─ rn-startup-list-quick-facts
-│  ├─ rn-startup-list-common-challenges-applicants-face
-│  ├─ rn-startup-list-how-we-solve-these-challenges
-│  ├─ rn-startup-section-visa-overview
-│  ├─ rn-startup-form-who-is-this-visa-for
-│  ├─ rn-startup-list-required-documents
-│  ├─ rn-startup-list-application-process
-│  ├─ rn-startup-section-timelines-deadlines
-│  ├─ rn-startup-section-fees-costs
-│  ├─ rn-startup-list-risks-common-mistakes
-│  ├─ rn-startup-section-diy-vs-professional-assistance
-│  ├─ rn-startup-section-rio-grande-do-norte-specific-context
-│  ├─ rn-startup-section-what-our-clients-say
-│  ├─ rn-startup-section-frequently-asked-questions
-│  ├─ rn-startup-section-international-support
-│  ├─ application-form
-│  ├─ rn-startup-list-our-credentials
-│  ├─ rn-startup-list-related-services
-│  ├─ rn-startup-section-youre-in-good-hands
-│  ├─ rn-startup-section-21
-
-├─ family.html
-│  ├─ rn-family-form-reunite-with-family-in-brazil-with-the-family-visa
-│  ├─ rn-family-list-quick-facts
-│  ├─ rn-family-list-common-challenges-applicants-face
-│  ├─ rn-family-list-how-we-solve-these-challenges
-│  ├─ rn-family-section-visa-overview
-│  ├─ rn-family-form-who-is-this-visa-for
-│  ├─ rn-family-list-required-documents
-│  ├─ rn-family-list-application-process
-│  ├─ rn-family-section-timelines-deadlines
-│  ├─ rn-family-section-fees-costs
-│  ├─ rn-family-list-risks-common-mistakes
-│  ├─ rn-family-section-diy-vs-professional-assistance
-│  ├─ rn-family-section-rio-grande-do-norte-specific-context
-│  ├─ rn-family-section-what-our-clients-say
-│  ├─ rn-family-section-frequently-asked-questions
-│  ├─ rn-family-section-international-support
-│  ├─ application-form
-│  ├─ rn-family-list-our-credentials
-│  ├─ rn-family-list-related-services
-│  ├─ rn-family-section-youre-in-good-hands
-│  ├─ rn-family-section-21
-
-├─ sports.html
-│  ├─ rn-sports-form-compete-in-brazil-with-the-sports-visa
-│  ├─ rn-sports-list-quick-facts
-│  ├─ rn-sports-list-common-challenges-applicants-face
-│  ├─ rn-sports-list-how-we-solve-these-challenges
-│  ├─ rn-sports-section-visa-overview
-│  ├─ rn-sports-form-who-is-this-visa-for
-│  ├─ rn-sports-list-required-documents
-│  ├─ rn-sports-list-application-process
-│  ├─ rn-sports-section-timelines-deadlines
-│  ├─ rn-sports-section-fees-costs
-│  ├─ rn-sports-list-risks-common-mistakes
-│  ├─ rn-sports-section-diy-vs-professional-assistance
-│  ├─ rn-sports-section-rio-grande-do-norte-specific-context
-│  ├─ rn-sports-section-what-our-clients-say
-│  ├─ rn-sports-section-frequently-asked-questions
-│  ├─ rn-sports-section-international-support
-│  ├─ application-form
-│  ├─ rn-sports-list-our-credentials
-│  ├─ rn-sports-list-related-services
-│  ├─ rn-sports-section-youre-in-good-hands
-│  ├─ rn-sports-section-21
-
-├─ medical.html
-│  ├─ rn-medical-form-receive-medical-treatment-in-brazil-with-the-medical-visa
-│  ├─ rn-medical-list-quick-facts
-│  ├─ rn-medical-list-common-challenges-applicants-face
-│  ├─ rn-medical-list-how-we-solve-these-challenges
-│  ├─ rn-medical-section-visa-overview
-│  ├─ rn-medical-form-who-is-this-visa-for
-│  ├─ rn-medical-list-required-documents
-│  ├─ rn-medical-list-application-process
-│  ├─ rn-medical-section-timelines-deadlines
-│  ├─ rn-medical-section-fees-costs
-│  ├─ rn-medical-list-risks-common-mistakes
-│  ├─ rn-medical-section-diy-vs-professional-assistance
-│  ├─ rn-medical-section-rio-grande-do-norte-specific-context
-│  ├─ rn-medical-section-what-our-clients-say
-│  ├─ rn-medical-section-frequently-asked-questions
-│  ├─ rn-medical-section-international-support
-│  ├─ application-form
-│  ├─ rn-medical-list-our-credentials
-│  ├─ rn-medical-list-related-services
-│  ├─ rn-medical-section-youre-in-good-hands
-│  ├─ rn-medical-section-21
-
-├─ tourist.html
-│  ├─ rn-tourist-form-visit-brazil-as-a-tourist-with-the-tourist-visa
-│  ├─ rn-tourist-list-quick-facts
-│  ├─ rn-tourist-list-common-challenges-applicants-face
-│  ├─ rn-tourist-list-how-we-solve-these-challenges
-│  ├─ rn-tourist-section-visa-overview
-│  ├─ rn-tourist-form-who-is-this-visa-for
-│  ├─ rn-tourist-list-required-documents
-│  ├─ rn-tourist-list-application-process
-│  ├─ rn-tourist-section-timelines-deadlines
-│  ├─ rn-tourist-section-fees-costs
-│  ├─ rn-tourist-list-risks-common-mistakes
-│  ├─ rn-tourist-section-diy-vs-professional-assistance
-│  ├─ rn-tourist-section-rio-grande-do-norte-specific-context
-│  ├─ rn-tourist-section-what-our-clients-say
-│  ├─ rn-tourist-section-frequently-asked-questions
-│  ├─ rn-tourist-section-international-support
-│  ├─ application-form
-│  ├─ rn-tourist-list-our-credentials
-│  ├─ rn-tourist-list-related-services
-│  ├─ rn-tourist-section-youre-in-good-hands
-│  ├─ rn-tourist-section-21
-
-├─ transit.html
-│  ├─ rn-transit-form-transit-through-brazil-with-the-transit-visa
-│  ├─ rn-transit-list-quick-facts
-│  ├─ rn-transit-list-common-challenges-applicants-face
-│  ├─ rn-transit-list-how-we-solve-these-challenges
-│  ├─ rn-transit-section-visa-overview
-│  ├─ rn-transit-form-who-is-this-visa-for
-│  ├─ rn-transit-list-required-documents
-│  ├─ rn-transit-list-application-process
-│  ├─ rn-transit-section-timelines-deadlines
-│  ├─ rn-transit-section-fees-costs
-│  ├─ rn-transit-list-risks-common-mistakes
-│  ├─ rn-transit-section-diy-vs-professional-assistance
-│  ├─ rn-transit-section-rio-grande-do-norte-specific-context
-│  ├─ rn-transit-section-what-our-clients-say
-│  ├─ rn-transit-section-frequently-asked-questions
-│  ├─ rn-transit-section-international-support
-│  ├─ application-form
-│  ├─ rn-transit-list-our-credentials
-│  ├─ rn-transit-list-related-services
-│  ├─ rn-transit-section-youre-in-good-hands
-│  ├─ rn-transit-section-21
-
-├─ student.html
-│  ├─ rn-student-form-study-in-brazil-with-the-student-visa
-│  ├─ rn-student-list-quick-facts
-│  ├─ rn-student-list-common-challenges-applicants-face
-│  ├─ rn-student-list-how-we-solve-these-challenges
-│  ├─ rn-student-section-visa-overview
-│  ├─ rn-student-form-who-is-this-visa-for
-│  ├─ rn-student-list-required-documents
-│  ├─ rn-student-list-application-process
-│  ├─ rn-student-section-timelines-deadlines
-│  ├─ rn-student-section-fees-costs
-│  ├─ rn-student-list-risks-common-mistakes
-│  ├─ rn-student-section-diy-vs-professional-assistance
-│  ├─ rn-student-section-rio-grande-do-norte-specific-context
-│  ├─ rn-student-section-what-our-clients-say
-│  ├─ rn-student-section-frequently-asked-questions
-│  ├─ rn-student-section-international-support
-│  ├─ application-form
-│  ├─ rn-student-list-our-credentials
-│  ├─ rn-student-list-related-services
-│  ├─ rn-student-section-youre-in-good-hands
-│  ├─ rn-student-section-21
-
-├─ business.html
-│  ├─ rn-business-form-conduct-business-in-brazil-with-the-business-visa
-│  ├─ rn-business-list-quick-facts
-│  ├─ rn-business-list-common-challenges-applicants-face
-│  ├─ rn-business-list-how-we-solve-these-challenges
-│  ├─ rn-business-section-visa-overview
-│  ├─ rn-business-form-who-is-this-visa-for
-│  ├─ rn-business-list-required-documents
-│  ├─ rn-business-list-application-process
-│  ├─ rn-business-section-timelines-deadlines
-│  ├─ rn-business-section-fees-costs
-│  ├─ rn-business-list-risks-common-mistakes
-│  ├─ rn-business-section-diy-vs-professional-assistance
-│  ├─ rn-business-section-rio-grande-do-norte-specific-context
-│  ├─ rn-business-section-what-our-clients-say
-│  ├─ rn-business-section-frequently-asked-questions
-│  ├─ rn-business-section-international-support
-│  ├─ application-form
-│  ├─ rn-business-list-our-credentials
-│  ├─ rn-business-list-related-services
-│  ├─ rn-business-section-youre-in-good-hands
-│  ├─ rn-business-section-21
-
-├─ research.html
-│  ├─ rn-research-form-conduct-research-in-brazil-with-the-research-visa
-│  ├─ rn-research-list-quick-facts
-│  ├─ rn-research-list-common-challenges-applicants-face
-│  ├─ rn-research-list-how-we-solve-these-challenges
-│  ├─ rn-research-section-visa-overview
-│  ├─ rn-research-form-who-is-this-visa-for
-│  ├─ rn-research-list-required-documents
-│  ├─ rn-research-list-application-process
-│  ├─ rn-research-section-timelines-deadlines
-│  ├─ rn-research-section-fees-costs
-│  ├─ rn-research-list-risks-common-mistakes
-│  ├─ rn-research-section-diy-vs-professional-assistance
-│  ├─ rn-research-section-rio-grande-do-norte-specific-context
-│  ├─ rn-research-section-what-our-clients-say
-│  ├─ rn-research-section-frequently-asked-questions
-│  ├─ rn-research-section-international-support
-│  ├─ application-form
-│  ├─ rn-research-list-our-credentials
-│  ├─ rn-research-list-related-services
-│  ├─ rn-research-section-youre-in-good-hands
-│  ├─ rn-research-section-21
-
-├─ diplomatic.html
-│  ├─ rn-diplomatic-form-official-diplomatic-visa-for-brazil-missions
-│  ├─ rn-diplomatic-list-quick-facts
-│  ├─ rn-diplomatic-list-common-challenges-applicants-face
-│  ├─ rn-diplomatic-list-how-we-solve-these-challenges
-│  ├─ rn-diplomatic-section-visa-overview
-│  ├─ rn-diplomatic-form-who-is-this-visa-for
-│  ├─ rn-diplomatic-list-required-documents
-│  ├─ rn-diplomatic-list-application-process
-│  ├─ rn-diplomatic-section-timelines-deadlines
-│  ├─ rn-diplomatic-section-fees-costs
-│  ├─ rn-diplomatic-list-risks-common-mistakes
-│  ├─ rn-diplomatic-section-diy-vs-professional-assistance
-│  ├─ rn-diplomatic-section-rio-grande-do-norte-specific-context
-│  ├─ rn-diplomatic-section-what-our-clients-say
-│  ├─ rn-diplomatic-section-frequently-asked-questions
-│  ├─ rn-diplomatic-section-international-support
-│  ├─ application-form
-│  ├─ rn-diplomatic-list-our-credentials
-│  ├─ rn-diplomatic-list-related-services
-│  ├─ rn-diplomatic-section-youre-in-good-hands
-│  ├─ rn-diplomatic-section-21
-
-├─ journalist.html
-│  ├─ rn-journalist-form-cover-news-in-brazil-with-the-journalist-visa
-│  ├─ rn-journalist-list-quick-facts
-│  ├─ rn-journalist-list-common-challenges-applicants-face
-│  ├─ rn-journalist-list-how-we-solve-these-challenges
-│  ├─ rn-journalist-section-visa-overview
-│  ├─ rn-journalist-form-who-is-this-visa-for
-│  ├─ rn-journalist-list-required-documents
-│  ├─ rn-journalist-list-application-process
-│  ├─ rn-journalist-section-timelines-deadlines
-│  ├─ rn-journalist-section-fees-costs
-│  ├─ rn-journalist-list-risks-common-mistakes
-│  ├─ rn-journalist-section-diy-vs-professional-assistance
-│  ├─ rn-journalist-section-rio-grande-do-norte-specific-context
-│  ├─ rn-journalist-section-what-our-clients-say
-│  ├─ rn-journalist-section-frequently-asked-questions
-│  ├─ rn-journalist-section-international-support
-│  ├─ application-form
-│  ├─ rn-journalist-list-our-credentials
-│  ├─ rn-journalist-list-related-services
-│  ├─ rn-journalist-section-youre-in-good-hands
-│  ├─ rn-journalist-section-21
-
-├─ fines.html
-│  ├─ rn-fines-form-resolve-immigration-fines-in-brazil
-│  ├─ rn-fines-list-quick-facts
-│  ├─ rn-fines-list-common-challenges-applicants-face
-│  ├─ rn-fines-list-how-we-solve-these-challenges
-│  ├─ rn-fines-section-service-overview
-│  ├─ rn-fines-form-who-is-this-service-for
-│  ├─ rn-fines-list-required-documents
-│  ├─ rn-fines-list-process
-│  ├─ rn-fines-section-timelines-deadlines
-│  ├─ rn-fines-section-fees-costs
-│  ├─ rn-fines-list-risks-common-mistakes
-│  ├─ rn-fines-section-diy-vs-professional-assistance
-│  ├─ rn-fines-section-rio-grande-do-norte-specific-context
-│  ├─ rn-fines-section-what-our-clients-say
-│  ├─ rn-fines-section-frequently-asked-questions
-│  ├─ rn-fines-section-international-support
-│  ├─ application-form
-│  ├─ rn-fines-list-our-credentials
-│  ├─ rn-fines-list-related-services
-│  ├─ rn-fines-section-youre-in-good-hands
-│  ├─ rn-fines-section-21
-
-├─ deportation.html
-│  ├─ rn-deportation-form-deportation-assistance-in-brazil
-│  ├─ rn-deportation-list-quick-facts
-│  ├─ rn-deportation-list-common-challenges-applicants-face
-│  ├─ rn-deportation-list-how-we-solve-these-challenges
-│  ├─ rn-deportation-section-service-overview
-│  ├─ rn-deportation-form-who-is-this-service-for
-│  ├─ rn-deportation-list-required-documents
-│  ├─ rn-deportation-list-process
-│  ├─ rn-deportation-section-timelines-deadlines
-│  ├─ rn-deportation-section-fees-costs
-│  ├─ rn-deportation-list-risks-common-mistakes
-│  ├─ rn-deportation-section-diy-vs-professional-assistance
-│  ├─ rn-deportation-section-rio-grande-do-norte-specific-context
-│  ├─ rn-deportation-section-what-our-clients-say
-│  ├─ rn-deportation-section-frequently-asked-questions
-│  ├─ rn-deportation-section-international-support
-│  ├─ application-form
-│  ├─ rn-deportation-list-our-credentials
-│  ├─ rn-deportation-list-related-services
-│  ├─ rn-deportation-section-youre-in-good-hands
-│  ├─ rn-deportation-section-21
-
-├─ translation.html
-│  ├─ rn-translation-form-sworn-document-translation-services-in-brazil
-│  ├─ rn-translation-list-quick-facts
-│  ├─ rn-translation-list-common-challenges-applicants-face
-│  ├─ rn-translation-list-how-we-solve-these-challenges
-│  ├─ rn-translation-section-service-overview
-│  ├─ rn-translation-form-who-is-this-service-for
-│  ├─ rn-translation-list-required-documents
-│  ├─ rn-translation-list-process
-│  ├─ rn-translation-section-timelines-deadlines
-│  ├─ rn-translation-section-fees-costs
-│  ├─ rn-translation-list-risks-common-mistakes
-│  ├─ rn-translation-section-diy-vs-professional-assistance
-│  ├─ rn-translation-section-rio-grande-do-norte-specific-context
-│  ├─ rn-translation-section-what-our-clients-say
-│  ├─ rn-translation-section-frequently-asked-questions
-│  ├─ rn-translation-section-international-support
-│  ├─ application-form
-│  ├─ rn-translation-list-our-credentials
-│  ├─ rn-translation-list-related-services
-│  ├─ rn-translation-section-youre-in-good-hands
-│  ├─ rn-translation-section-21
-
-├─ expulsion.html
-│  ├─ rn-expulsion-form-expulsion-assistance-in-brazil
-│  ├─ rn-expulsion-list-quick-facts
-│  ├─ rn-expulsion-list-common-challenges-applicants-face
-│  ├─ rn-expulsion-list-how-we-solve-these-challenges
-│  ├─ rn-expulsion-section-service-overview
-│  ├─ rn-expulsion-form-who-is-this-service-for
-│  ├─ rn-expulsion-list-required-documents
-│  ├─ rn-expulsion-list-process
-│  ├─ rn-expulsion-section-timelines-deadlines
-│  ├─ rn-expulsion-section-fees-costs
-│  ├─ rn-expulsion-list-risks-common-mistakes
-│  ├─ rn-expulsion-section-diy-vs-professional-assistance
-│  ├─ rn-expulsion-section-rio-grande-do-norte-specific-context
-│  ├─ rn-expulsion-section-what-our-clients-say
-│  ├─ rn-expulsion-section-frequently-asked-questions
-│  ├─ rn-expulsion-section-international-support
-│  ├─ application-form
-│  ├─ rn-expulsion-list-our-credentials
-│  ├─ rn-expulsion-list-related-services
-│  ├─ rn-expulsion-section-youre-in-good-hands
-│  ├─ rn-expulsion-section-21
-
-├─ appeals.html
-│  ├─ rn-appeals-form-appeal-immigration-denials-in-brazil
-│  ├─ rn-appeals-list-quick-facts
-│  ├─ rn-appeals-list-common-challenges-applicants-face
-│  ├─ rn-appeals-list-how-we-solve-these-challenges
-│  ├─ rn-appeals-section-service-overview
-│  ├─ rn-appeals-form-who-is-this-service-for
-│  ├─ rn-appeals-list-required-documents
-│  ├─ rn-appeals-list-appeal-process
-│  ├─ rn-appeals-section-timelines-deadlines
-│  ├─ rn-appeals-section-fees-costs
-│  ├─ rn-appeals-list-risks-common-mistakes
-│  ├─ rn-appeals-section-diy-vs-professional-assistance
-│  ├─ rn-appeals-section-rio-grande-do-norte-specific-context
-│  ├─ rn-appeals-section-what-our-clients-say
-│  ├─ rn-appeals-section-frequently-asked-questions
-│  ├─ rn-appeals-section-international-support
-│  ├─ application-form
-│  ├─ rn-appeals-list-our-credentials
-│  ├─ rn-appeals-list-related-services
-│  ├─ rn-appeals-section-youre-in-good-hands
-│  ├─ rn-appeals-section-21
-
-├─ consular.html
-│  ├─ rn-consular-form-consular-services-in-brazil-for-citizens
-│  ├─ rn-consular-list-quick-facts
-│  ├─ rn-consular-list-common-challenges-applicants-face
-│  ├─ rn-consular-list-how-we-solve-these-challenges
-│  ├─ rn-consular-section-service-overview
-│  ├─ rn-consular-form-who-is-this-service-for
-│  ├─ rn-consular-list-required-documents
-│  ├─ rn-consular-list-process
-│  ├─ rn-consular-section-timelines-deadlines
-│  ├─ rn-consular-section-fees-costs
-│  ├─ rn-consular-list-risks-common-mistakes
-│  ├─ rn-consular-section-diy-vs-professional-assistance
-│  ├─ rn-consular-section-rio-grande-do-norte-specific-context
-│  ├─ rn-consular-section-what-our-clients-say
-│  ├─ rn-consular-section-frequently-asked-questions
-│  ├─ rn-consular-section-international-support
-│  ├─ application-form
-│  ├─ rn-consular-list-our-credentials
-│  ├─ rn-consular-list-related-services
-│  ├─ rn-consular-section-youre-in-good-hands
-│  ├─ rn-consular-section-21
-
-├─ criminal-records.html
-│  ├─ rn-criminalrecords-form-obtain-criminal-records-certificate-in-brazil
-│  ├─ rn-criminalrecords-list-quick-facts
-│  ├─ rn-criminalrecords-list-common-challenges-applicants-face
-│  ├─ rn-criminalrecords-list-how-we-solve-these-challenges
-│  ├─ rn-criminalrecords-section-service-overview
-│  ├─ rn-criminalrecords-form-who-is-this-service-for
-│  ├─ rn-criminalrecords-list-required-documents
-│  ├─ rn-criminalrecords-list-process
-│  ├─ rn-criminalrecords-section-timelines-deadlines
-│  ├─ rn-criminalrecords-section-fees-costs
-│  ├─ rn-criminalrecords-list-risks-common-mistakes
-│  ├─ rn-criminalrecords-section-diy-vs-professional-assistance
-│  ├─ rn-criminalrecords-section-rio-grande-do-norte-specific-context
-│  ├─ rn-criminalrecords-section-what-our-clients-say
-│  ├─ rn-criminalrecords-section-frequently-asked-questions
-│  ├─ rn-criminalrecords-section-international-support
-│  ├─ application-form
-│  ├─ rn-criminalrecords-list-our-credentials
-│  ├─ rn-criminalrecords-list-related-services
-│  ├─ rn-criminalrecords-section-youre-in-good-hands
-│  ├─ rn-criminalrecords-section-21
-
-├─ extradition.html
-│  ├─ rn-extradition-form-extradition-assistance-in-brazil
-│  ├─ rn-extradition-list-quick-facts
-│  ├─ rn-extradition-list-common-challenges-applicants-face
-│  ├─ rn-extradition-list-how-we-solve-these-challenges
-│  ├─ rn-extradition-section-service-overview
-│  ├─ rn-extradition-form-who-is-this-service-for
-│  ├─ rn-extradition-list-required-documents
-│  ├─ rn-extradition-list-process
-│  ├─ rn-extradition-section-timelines-deadlines
-│  ├─ rn-extradition-section-fees-costs
-│  ├─ rn-extradition-list-risks-common-mistakes
-│  ├─ rn-extradition-section-diy-vs-professional-assistance
-│  ├─ rn-extradition-section-rio-grande-do-norte-specific-context
-│  ├─ rn-extradition-section-what-our-clients-say
-│  ├─ rn-extradition-section-frequently-asked-questions
-│  ├─ rn-extradition-section-international-support
-│  ├─ application-form
-│  ├─ rn-extradition-list-our-credentials
-│  ├─ rn-extradition-list-related-services
-│  ├─ rn-extradition-section-youre-in-good-hands
-│  ├─ rn-extradition-section-21
-
-├─ north.html
-│  ├─ rn-north-form-discover-the-north-amazon-and-beyond
-│  ├─ rn-north-list-quick-facts
-│  ├─ rn-north-list-common-challenges-applicants-face
-│  ├─ rn-north-list-how-we-solve-these-challenges
-│  ├─ rn-north-section-trip-overview
-│  ├─ rn-north-form-who-is-this-trip-for
-│  ├─ rn-north-list-required-documents
-│  ├─ rn-north-list-booking-process
-│  ├─ rn-north-section-timelines-deadlines
-│  ├─ rn-north-section-fees-costs
-│  ├─ rn-north-list-risks-common-mistakes
-│  ├─ rn-north-section-diy-vs-professional-assistance
-│  ├─ rn-north-section-rio-grande-do-norte-specific-context
-│  ├─ rn-north-section-what-our-clients-say
-│  ├─ rn-north-section-frequently-asked-questions
-│  ├─ rn-north-section-international-support
-│  ├─ application-form
-│  ├─ rn-north-list-our-credentials
-│  ├─ rn-north-list-related-services
-│  ├─ rn-north-section-youre-in-good-hands
-│  ├─ rn-north-section-21
+├─ mobile-nav.html
+│  ├─ mobile-nav
 
 ├─ central-west.html
-│  ├─ rn-centralwest-form-wild-centralwest-pantanal-and-cerrado
-│  ├─ rn-centralwest-list-quick-facts
-│  ├─ rn-centralwest-list-common-challenges-applicants-face
-│  ├─ rn-centralwest-list-how-we-solve-these-challenges
-│  ├─ rn-centralwest-section-trip-overview
-│  ├─ rn-centralwest-form-who-is-this-trip-for
-│  ├─ rn-centralwest-list-required-documents
-│  ├─ rn-centralwest-list-booking-process
-│  ├─ rn-centralwest-section-timelines-deadlines
-│  ├─ rn-centralwest-section-fees-costs
-│  ├─ rn-centralwest-list-risks-common-mistakes
-│  ├─ rn-centralwest-section-diy-vs-professional-assistance
-│  ├─ rn-centralwest-section-rio-grande-do-norte-specific-context
-│  ├─ rn-centralwest-section-what-our-clients-say
-│  ├─ rn-centralwest-section-frequently-asked-questions
-│  ├─ rn-centralwest-section-international-support
-│  ├─ application-form
-│  ├─ rn-centralwest-list-our-credentials
-│  ├─ rn-centralwest-list-related-services
-│  ├─ rn-centralwest-section-youre-in-good-hands
-│  ├─ rn-centralwest-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
-├─ southeast.html
-│  ├─ rn-southeast-form-dynamic-southeast-cities-and-history
-│  ├─ rn-southeast-list-quick-facts
-│  ├─ rn-southeast-list-common-challenges-applicants-face
-│  ├─ rn-southeast-list-how-we-solve-these-challenges
-│  ├─ rn-southeast-section-trip-overview
-│  ├─ rn-southeast-form-who-is-this-trip-for
-│  ├─ rn-southeast-list-required-documents
-│  ├─ rn-southeast-list-booking-process
-│  ├─ rn-southeast-section-timelines-deadlines
-│  ├─ rn-southeast-section-fees-costs
-│  ├─ rn-southeast-list-risks-common-mistakes
-│  ├─ rn-southeast-section-diy-vs-professional-assistance
-│  ├─ rn-southeast-section-rio-grande-do-norte-specific-context
-│  ├─ rn-southeast-section-what-our-clients-say
-│  ├─ rn-southeast-section-frequently-asked-questions
-│  ├─ rn-southeast-section-international-support
-│  ├─ application-form
-│  ├─ rn-southeast-list-our-credentials
-│  ├─ rn-southeast-list-related-services
-│  ├─ rn-southeast-section-youre-in-good-hands
-│  ├─ rn-southeast-section-21
+├─ north.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ northeast.html
-│  ├─ rn-northeast-form-vibrant-northeast-beaches-and-culture
-│  ├─ rn-northeast-list-quick-facts
-│  ├─ rn-northeast-list-common-challenges-applicants-face
-│  ├─ rn-northeast-list-how-we-solve-these-challenges
-│  ├─ rn-northeast-section-trip-overview
-│  ├─ rn-northeast-form-who-is-this-trip-for
-│  ├─ rn-northeast-list-required-documents
-│  ├─ rn-northeast-list-booking-process
-│  ├─ rn-northeast-section-timelines-deadlines
-│  ├─ rn-northeast-section-fees-costs
-│  ├─ rn-northeast-list-risks-common-mistakes
-│  ├─ rn-northeast-section-diy-vs-professional-assistance
-│  ├─ rn-northeast-section-rio-grande-do-norte-specific-context
-│  ├─ rn-northeast-section-what-our-clients-say
-│  ├─ rn-northeast-section-frequently-asked-questions
-│  ├─ rn-northeast-section-international-support
-│  ├─ application-form
-│  ├─ rn-northeast-list-our-credentials
-│  ├─ rn-northeast-list-related-services
-│  ├─ rn-northeast-section-youre-in-good-hands
-│  ├─ rn-northeast-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ south.html
-│  ├─ rn-south-form-charming-south-wine-and-gauchos
-│  ├─ rn-south-list-quick-facts
-│  ├─ rn-south-list-common-challenges-applicants-face
-│  ├─ rn-south-list-how-we-solve-these-challenges
-│  ├─ rn-south-section-trip-overview
-│  ├─ rn-south-form-who-is-this-trip-for
-│  ├─ rn-south-list-required-documents
-│  ├─ rn-south-list-booking-process
-│  ├─ rn-south-section-timelines-deadlines
-│  ├─ rn-south-section-fees-costs
-│  ├─ rn-south-list-risks-common-mistakes
-│  ├─ rn-south-section-diy-vs-professional-assistance
-│  ├─ rn-south-section-rio-grande-do-norte-specific-context
-│  ├─ rn-south-section-what-our-clients-say
-│  ├─ rn-south-section-frequently-asked-questions
-│  ├─ rn-south-section-international-support
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ southeast.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ derivative.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ extraordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ ordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ provisional.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ reacquisition-citizenship.html
+│  ├─ hero-heading
 │  ├─ application-form
-│  ├─ rn-south-list-our-credentials
-│  ├─ rn-south-list-related-services
-│  ├─ rn-south-section-youre-in-good-hands
-│  ├─ rn-south-section-21
+
+├─ reacquisition.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ renouncing-citizenship.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ special.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ apostille.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ appeals.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ authentication.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ company-formation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ consular.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ consultation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cpf.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ criminal-records.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ deportation.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ expulsion.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ extradition.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ fines.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ power-of-attorney.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ rne.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ translation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cplp.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ crnm.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family-reunion.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ health-treatment.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investment.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investor.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ marriage.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ mercosul.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ permanent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ researcher.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ scientific-research.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ skilled-worker.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ startup.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ study.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ temporary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ youth-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ artist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ artistic.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ business.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ crew.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cultural.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ dependent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ diplomatic.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ investor.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ journalist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ medical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ missionary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ official.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ research.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ sports.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ startup.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ student.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ technical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ tourist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ transit.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
